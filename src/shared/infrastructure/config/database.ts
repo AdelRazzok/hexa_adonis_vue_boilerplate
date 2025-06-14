@@ -12,7 +12,10 @@ const dbConfig = defineConfig({
       useNullAsDefault: true,
       migrations: {
         naturalSort: true,
-        paths: ['src/shared/infrastructure/database/migration'],
+        paths: [
+          'src/shared/infrastructure/database/migrations',
+          'src/contexts/user_management/infrastructure/database/migrations',
+        ],
       },
     },
   },

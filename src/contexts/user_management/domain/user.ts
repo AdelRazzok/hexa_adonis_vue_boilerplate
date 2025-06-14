@@ -1,7 +1,7 @@
 import { Entity } from '#shared/domain/entity'
 import { Identifier } from '#shared/domain/identifier'
 import { Email } from '#user_management/domain/email'
-import { HashedPassword } from './hashed_password.js'
+import { HashedPassword } from '#user_management/domain/hashed_password'
 
 interface Properties {
   id: Identifier
